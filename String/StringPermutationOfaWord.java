@@ -29,9 +29,19 @@ public class StringPermutationOfaWord {
 	}
 	
 	public static void main(String[] args) {
-		String str = "THRONE";
+		String str = "ABC";
 		StringPermutationOfaWord word = new StringPermutationOfaWord();
 		word.permute(str, 0, str.length()-1);
 	}
 
 }
+
+//Output
+/*
+* ABC
+* ACB
+* BAC
+* BCA
+* CBA
+* CAB
+*/
